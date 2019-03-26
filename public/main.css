@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+    color: #3e3e3e;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.main-content{
+    width: 70vw;
+    margin: auto;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+}
+/* 
+#canvas-1{
+    width: 100%;
+} */
+
+.disable-select {
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Poc webcam to canvas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./main.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        <h1>Poc canvas wecam</h1>
+        <div class="slidecontainer">
+            <input type="range" min="0" max="255" value="32" class="slider" id="tolerancePicker">
+        </div>
+        <div class="disable-select">
+            <canvas id="canvas-1"></canvas>
+            <video playsinline autoplay></video>
+        </div>
+    </div>
+</body>
+</html>
